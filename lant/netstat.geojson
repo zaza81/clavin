@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "geometry": {  
+        "type": "Point",
+        "coordinates": [-122.0813, 37.4139]
+    },
+    "properties": {
+        "src-ip" : "10.8.30.56",
+        "src-port" : "54082",
+        "dst-ip" : "74.125.228.118",
+        "dst-port" : "443",
+        "state" : "ESTABLISHED"             
+     }
+}

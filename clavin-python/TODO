@@ -1,0 +1,39 @@
+from clavin import Clavin
+
+# Clavin class  
+# should be extensible to use user auths, ssl, and different 
+# transport mechanisms (RPC) and data formats (protobufs) and
+# different protocol versions
+
+# connect with no auth, non-ssl, using the default REST API 
+clv = Clavin("http://localhost:9000") 
+
+
+# parse  
+# resolve 
+
+# document is file-like object or string made up of text  
+locs = clv.parse(document) 
+# returns an iterable collection of location objects (these are not resolved)
+
+# resolve can take a file-like object or string, in this case it will both 
+# parse and resolve 
+# if it takes a collection of parsed location objects, it will resolve those 
+res = clv.resolve(document) 
+
+# returns resolved locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
